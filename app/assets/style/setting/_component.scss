@@ -1,0 +1,38 @@
+// 各頁面通用元件
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+                                  /* mac, IOS 系統字體                   Windows 英文系統字  微軟正黑體 Android 系統字  IOS 系統字  通用字體 */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+// container
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @include pad {
+        max-width: 720px;
+    }
+    @include iphoneX {
+        max-width: 375px;
+    }
+}
+
+.sub-title {
+    font-size: 48px;
+    font-weight: bold;
+    @include pad { 
+        font-size: 32px;
+    }
+    @include iphoneX { 
+        font-size: 24px;
+    }
+}
+
+//component
+.border-left {
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+}

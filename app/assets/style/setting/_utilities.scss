@@ -1,0 +1,51 @@
+// utlities
+.mr {
+    &-1 {
+        margin-right: 8px;
+    }
+    &-2 {
+        margin-right: 16px;
+    }
+    &-4 {
+        margin-right: 32px;
+    }
+    &-6 {
+        margin-right: 48px;
+    }
+    &-8 {
+        margin-right: 64px;
+    }
+}
+
+.mb {
+    &-1 {
+        margin-bottom: 8px;
+    }
+    &-2 {
+        margin-bottom: 16px;
+    }
+    &-3 {
+        margin-bottom: 24px;
+    }
+    &-4 {
+        margin-bottom: 32px;
+    }
+    &-5 {
+        margin-bottom: 40px;
+    }
+    &-6 {
+        margin-bottom: 48px;
+    }
+    &-8 {
+        margin-bottom: 64px;
+    }
+}
+
+.mt {
+    &-2 {
+        margin-top: 16px;
+    }
+    &-6 {
+        margin-top: 48px;
+    }
+}
