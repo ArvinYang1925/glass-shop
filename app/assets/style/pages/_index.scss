@@ -7,11 +7,23 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    .banner-block {     
+    .container {
+        height: 100%;
+        // display: flex;
+        // justify-content: flex-end;
+        // align-items: center;
+    }
+    .banner-block {
+        height: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        .banner-text {                      
+        // height: 100%;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
+        // justify-content: center;
+        .banner-text {                       
             text-align: right;
             h3 {
                 font-size: 36px;
