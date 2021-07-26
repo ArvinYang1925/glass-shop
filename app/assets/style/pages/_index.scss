@@ -9,20 +9,12 @@
     background-repeat: no-repeat;
     .container {
         height: 100%;
-        // display: flex;
-        // justify-content: flex-end;
-        // align-items: center;
     }
     .banner-block {
         height: 100%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        // height: 100%;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: flex-end;
-        // justify-content: center;
         .banner-text {                       
             text-align: right;
             h3 {
@@ -143,7 +135,65 @@
             }
         }
     }
-    @include pad {
+    // @include pad {
+    //     padding-top: 40px;
+    //     padding-bottom: 56px;
+    //     .frame-lists {
+    //         li{
+    //             margin-bottom: 8px;
+    //             img {
+    //                 width: 54%;
+    //             }
+    //             .series-name {
+    //                 img {
+    //                     width: 40px;
+    //                     height: 40px;
+    //                 }
+    //                 h3 {
+    //                     font-size: 28px;
+    //                 }
+    //             }
+    //         }
+    //         li:nth-child(2) {
+    //             flex-direction: row;
+    //         }
+    //     }
+    // }
+    // @include iphoneX {
+    //     padding-top: 32px;
+    //     padding-bottom: 40px;
+    //     .frame-lists {
+    //         li{
+    //             position: relative;
+    //             justify-content: center;
+    //             align-items: center;
+    //             img {
+    //                 width: 100%;
+    //             }
+    //             .series-name {
+    //                 position: absolute;
+    //                 .mobile {
+    //                     display: block;
+    //                 }
+    //                 .pc-pad {
+    //                     display: none;
+    //                 }
+    //                 img {
+    //                     width: 40px;
+    //                     height: 40px;
+    //                 }
+    //                 h3 {
+    //                     color: white;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+}
+
+// 經典系列鏡框 提早更換為平版
+@media(max-width: 891px) { 
+    .classic-frames {
         padding-top: 40px;
         padding-bottom: 56px;
         .frame-lists {
@@ -167,7 +217,11 @@
             }
         }
     }
-    @include iphoneX {
+}
+
+// 經典系列鏡框 提早更換為手機版
+@media(max-width: 634px) { 
+    .classic-frames {
         padding-top: 32px;
         padding-bottom: 40px;
         .frame-lists {
