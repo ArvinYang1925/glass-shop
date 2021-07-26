@@ -418,49 +418,51 @@ body {
             flex-direction: row-reverse; }
     .classic-frames .frame-lists li:nth-child(2) .series-name {
       margin-right: 30px; }
-  @media (max-width: 768px) {
-    .classic-frames {
-      padding-top: 40px;
-      padding-bottom: 56px; }
-      .classic-frames .frame-lists li {
-        margin-bottom: 8px; }
-        .classic-frames .frame-lists li img {
-          width: 54%; }
+
+@media (max-width: 891px) {
+  .classic-frames {
+    padding-top: 40px;
+    padding-bottom: 56px; }
+    .classic-frames .frame-lists li {
+      margin-bottom: 8px; }
+      .classic-frames .frame-lists li img {
+        width: 54%; }
+      .classic-frames .frame-lists li .series-name img {
+        width: 40px;
+        height: 40px; }
+      .classic-frames .frame-lists li .series-name h3 {
+        font-size: 28px; }
+    .classic-frames .frame-lists li:nth-child(2) {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+@media (max-width: 634px) {
+  .classic-frames {
+    padding-top: 32px;
+    padding-bottom: 40px; }
+    .classic-frames .frame-lists li {
+      position: relative;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .classic-frames .frame-lists li img {
+        width: 100%; }
+      .classic-frames .frame-lists li .series-name {
+        position: absolute; }
+        .classic-frames .frame-lists li .series-name .mobile {
+          display: block; }
+        .classic-frames .frame-lists li .series-name .pc-pad {
+          display: none; }
         .classic-frames .frame-lists li .series-name img {
           width: 40px;
           height: 40px; }
         .classic-frames .frame-lists li .series-name h3 {
-          font-size: 28px; }
-      .classic-frames .frame-lists li:nth-child(2) {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row; } }
-  @media (max-width: 375px) {
-    .classic-frames {
-      padding-top: 32px;
-      padding-bottom: 40px; }
-      .classic-frames .frame-lists li {
-        position: relative;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; }
-        .classic-frames .frame-lists li img {
-          width: 100%; }
-        .classic-frames .frame-lists li .series-name {
-          position: absolute; }
-          .classic-frames .frame-lists li .series-name .mobile {
-            display: block; }
-          .classic-frames .frame-lists li .series-name .pc-pad {
-            display: none; }
-          .classic-frames .frame-lists li .series-name img {
-            width: 40px;
-            height: 40px; }
-          .classic-frames .frame-lists li .series-name h3 {
-            color: white; } }
+          color: white; } }
 
 .co-branding-franes {
   padding-top: 60px;
