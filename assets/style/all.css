@@ -300,7 +300,10 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+  .banner .container {
+    height: 100%; }
   .banner .banner-block {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
