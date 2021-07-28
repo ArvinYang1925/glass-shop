@@ -90,11 +90,17 @@ a {
 .mb-8 {
   margin-bottom: 64px; }
 
+.mb-12 {
+  margin-bottom: 96px; }
+
 .mt-2 {
   margin-top: 16px; }
 
 .mt-6 {
   margin-top: 48px; }
+
+.mt-12 {
+  margin-top: 96px; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -819,5 +825,150 @@ body {
         margin-left: 12px;
         width: 73%;
         height: 36px; } }
+
+.blog-menu {
+  background: #650300; }
+  .blog-menu .blog-menu-block {
+    padding: 12px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .blog-menu .blog-menu-block .menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .blog-menu .blog-menu-block .menu a {
+        color: white;
+        font-size: 20px; }
+        .blog-menu .blog-menu-block .menu a:hover {
+          color: green; }
+    .blog-menu .blog-menu-block img {
+      width: 29px;
+      height: 29px; }
+  @media (max-width: 768px) {
+    .blog-menu .blog-menu-block .menu li {
+      margin-right: 32px; }
+    .blog-menu .blog-menu-block .menu a {
+      font-size: 16px; } }
+  @media (max-width: 375px) {
+    .blog-menu .blog-menu-block {
+      display: none; } }
+
+.blog {
+  padding-top: 40px;
+  padding-bottom: 160px; }
+  .blog .artical {
+    margin-bottom: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .blog .artical img {
+      width: 55%; }
+    .blog .artical .artical-content {
+      width: 39%;
+      position: relative; }
+      .blog .artical .artical-content h3 {
+        font-size: 32px; }
+      .blog .artical .artical-content h4 {
+        font-size: 20px;
+        font-weight: bold; }
+      .blog .artical .artical-content .date {
+        font-size: 16px;
+        font-weight: normal; }
+      .blog .artical .artical-content p {
+        font-size: 20px; }
+      .blog .artical .artical-content a {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: #650300;
+        font-size: 36px;
+        font-weight: bold; }
+    .blog .artical .article-subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  .blog .page-list-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .blog .page-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .blog .page-list a {
+      font-size: 18px;
+      color: #555555;
+      border: 1px solid #555555;
+      padding: 12px 16px; }
+      .blog .page-list a:hover {
+        color: white;
+        background: #000000; }
+  @media (max-width: 768px) {
+    .blog .artical {
+      margin-bottom: 24px; }
+      .blog .artical img {
+        width: 48%; }
+      .blog .artical .artical-content {
+        width: 46%; }
+        .blog .artical .artical-content h3 {
+          font-size: 20px; }
+        .blog .artical .artical-content h4 {
+          font-size: 16px; }
+        .blog .artical .artical-content p {
+          display: inline;
+          font-size: 14px; }
+        .blog .artical .artical-content a {
+          text-transform: lowercase;
+          position: relative;
+          font-size: 14px; }
+        .blog .artical .artical-content .date {
+          font-size: 16px; }
+    .blog .artical-list {
+      margin-bottom: 64px; } }
+  @media (max-width: 375px) {
+    .blog {
+      padding-top: 28px;
+      padding-bottom: 56px; }
+      .blog .sub-title {
+        margin-bottom: 28px; }
+      .blog .artical {
+        margin-bottom: 20px; }
+        .blog .artical img {
+          width: 100%; }
+        .blog .artical .artical-content {
+          width: 100%; }
+          .blog .artical .artical-content h3 {
+            font-size: 16px; }
+          .blog .artical .artical-content h4 {
+            font-size: 14px; }
+          .blog .artical .artical-content p {
+            display: none; }
+          .blog .artical .artical-content a {
+            display: none; }
+          .blog .artical .artical-content .date {
+            font-size: 14px; }
+      .blog .artical-list {
+        margin-bottom: 40px; }
+      .blog .page-list a {
+        font-size: 16px;
+        padding: 10px 12px; } }
 
 /*# sourceMappingURL=all.css.map */
